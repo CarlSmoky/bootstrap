@@ -49,3 +49,31 @@ h1 {
   transform: rotate(25deg);
   padding: 0 2rem;
 }
+
+/* Features */
+#features {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.icon-img {
+  margin: 0 auto;
+  font-size: 4rem;
+  color: #ef8172;
+  transition: color 1s;
+}
+
+.icon-img:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  padding: .8rem;
+}
+
+.feature-text {
+  color: #8f8f8f;
+}
