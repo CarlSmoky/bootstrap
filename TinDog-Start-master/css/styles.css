@@ -15,6 +15,15 @@ h5 {
 .container-fluid {
   padding: 7% 15%;
 }
+/* section */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
 
 /* Heading */
 .big-heading {
@@ -29,14 +38,10 @@ h5 {
   line-height: 1.5;
 }
 
-/* title */
-#title {
-  background-color: #ff4c68;
-  text-align: left;
-}
-
+/* Title Section*/
 #title .container-fluid {
   padding: 3% 7% 15%;
+  text-align: left;
 }
 
 /* Navigation bar */
@@ -65,16 +70,14 @@ h5 {
 }
 
 /* Title Image */
-
 .title-image {
   position: absolute;
   top: 30%;
   transform: rotate(25deg);
 }
 
-/* Features */
+/* Features Section*/
 #features {
-  background-color: #fff;
   position: relative;
   z-index: 1;
 }
@@ -105,10 +108,10 @@ h5 {
   color: #8f8f8f;
 }
 
-/* Testimonials */
+/* Testimonials Section*/
+
 #testimonials {
   background-color: #ef8172;
-  color: #fff
 }
 
 .testimonial-image {
@@ -125,8 +128,7 @@ h5 {
 /* Press */
 #press {
   background-color: #ef8172;
-  
-  padding-bottom: 3rem;
+  padding-bottom: 3%;
 }
 
 .press-logo {
@@ -150,15 +152,8 @@ h5 {
   line-height: 1.5;
 }
 
-/* cta */
-#cta {
-  background-color: #ff4c68;
-}
 
 /* footer */
-#footer { 
-  background-color: #fff;
-}
 
 .footer-icon {
   font-size: 1.5rem;
@@ -166,7 +161,7 @@ h5 {
 }
 
 @media (max-width: 1028px) {
-  #title {
+  #title .container-fluid {
     text-align: center;
   }
 
